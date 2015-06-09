@@ -1,0 +1,24 @@
+{
+    "name": "illuminate3/crud",
+    "description": "",
+    "authors": [
+        {
+            "name": "Boy Hagemann",
+            "email": "boy@swis.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.x",
+        "zendframework/zend-code": "2.x",
+        "illuminate3/form": "dev-master",
+        "illuminate3/model": "dev-master",
+        "illuminate3/overview": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Illuminate3\\Crud": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
